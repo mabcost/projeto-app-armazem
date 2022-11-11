@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".activity_separacao">
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnLerQrCode"
+        android:layout_width="151dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:text="LER QR CODE" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="151dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:text="SAIR" />
+
+</LinearLayout>
